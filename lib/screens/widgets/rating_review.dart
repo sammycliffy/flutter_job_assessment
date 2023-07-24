@@ -70,23 +70,43 @@ class RatingReview extends StatelessWidget {
                               children: [
                                 Padding(
                                   padding: const EdgeInsets.all(2.0),
-                                  child: Image.asset(AppImages.smallStar),
+                                  child: Image.asset(
+                                    AppImages.smallStar,
+                                    width: 11,
+                                    height: 11,
+                                  ),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(2.0),
-                                  child: Image.asset(AppImages.smallStar),
+                                  child: Image.asset(
+                                    AppImages.smallStar,
+                                    width: 11,
+                                    height: 11,
+                                  ),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(2.0),
-                                  child: Image.asset(AppImages.smallStar),
+                                  child: Image.asset(
+                                    AppImages.smallStar,
+                                    width: 11,
+                                    height: 11,
+                                  ),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(2.0),
-                                  child: Image.asset(AppImages.smallStar),
+                                  child: Image.asset(
+                                    AppImages.smallStar,
+                                    width: 11,
+                                    height: 11,
+                                  ),
                                 ),
                                 Padding(
                                   padding: const EdgeInsets.all(2.0),
-                                  child: Image.asset(AppImages.smallStar),
+                                  child: Image.asset(
+                                    AppImages.smallStar,
+                                    width: 11,
+                                    height: 11,
+                                  ),
                                 ),
                                 widthSpace(2),
                                 customText(

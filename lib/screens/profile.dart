@@ -77,29 +77,49 @@ class ProfilePage extends StatelessWidget {
               children: [
                 Padding(
                   padding: const EdgeInsets.all(2.0),
-                  child: Image.asset(AppImages.smallStar),
+                  child: Image.asset(
+                    AppImages.smallStar,
+                    width: 12,
+                    height: 12,
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(2.0),
-                  child: Image.asset(AppImages.smallStar),
+                  child: Image.asset(
+                    AppImages.smallStar,
+                    width: 12,
+                    height: 12,
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(2.0),
-                  child: Image.asset(AppImages.smallStar),
+                  child: Image.asset(
+                    AppImages.smallStar,
+                    width: 12,
+                    height: 12,
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(2.0),
-                  child: Image.asset(AppImages.smallStar),
+                  child: Image.asset(
+                    AppImages.smallStar,
+                    width: 12,
+                    height: 12,
+                  ),
                 ),
                 Padding(
                   padding: const EdgeInsets.all(2.0),
-                  child: Image.asset(AppImages.smallStar),
+                  child: Image.asset(
+                    AppImages.smallStar,
+                    width: 11,
+                    height: 11,
+                  ),
                 ),
                 widthSpace(2),
                 customText(
                     text: "5.0",
                     color: AppColors.black,
-                    fontSize: 12,
+                    fontSize: 13,
                     fontWeight: FontWeight.bold)
               ],
             ),
